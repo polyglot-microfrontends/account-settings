@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "important-stuff"
+  ],
+  "globals": {
+    "angular": "readonly",
+    "accountSettingsBaseDir": "writable",
+    "singleSpaAngularjs": "readable"
+  }
+}
