@@ -1,0 +1,35 @@
+{
+  "name": "@polyglot-mf/account-settings",
+  "description": "The account settings single-spa application",
+  "scripts": {
+    "build": "gulp",
+    "start": "concurrently yarn:watch yarn:serve",
+    "serve": "http-server --ssl --cors dist",
+    "clean": "gulp clean",
+    "watch": "gulp watch",
+    "create-ssl-cert": "openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polyglot-microfrontends/account-settings.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/polyglot-microfrontends/account-settings/issues"
+  },
+  "homepage": "https://github.com/polyglot-microfrontends/account-settings#readme",
+  "devDependencies": {
+    "@types/systemjs": "^6.1.0",
+    "angular": "^1.7.9",
+    "angular-ui-router": "^1.0.24",
+    "concurrently": "^5.0.2",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "^2.6.1"
+  },
+  "dependencies": {
+    "single-spa-angularjs": "^3.1.0"
+  }
+}
