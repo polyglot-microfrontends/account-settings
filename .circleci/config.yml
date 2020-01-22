@@ -57,7 +57,6 @@ jobs:
             echo "Going to correct directory"
             cd /home/circleci/project/
             ls dist
-            ls dist/js
             echo "Creating google application credentials json file"
             echo $GOOGLE_APPLICATION_CREDENTIALS_JSON > google-application-credentials.json
             echo "Authenticating with Google"
