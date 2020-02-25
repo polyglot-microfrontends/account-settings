@@ -1,5 +1,6 @@
 # Polyglot Microfrontends account-settings
-The account settings single-spa application
+
+[![CircleCI](https://circleci.com/gh/polyglot-microfrontends/account-settings.svg?style=svg)](https://circleci.com/gh/polyglot-microfrontends/account-settings)
 
 ## What is this?
 
