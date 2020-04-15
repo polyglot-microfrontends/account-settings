@@ -24,8 +24,8 @@
   "devDependencies": {
     "@types/systemjs": "^6.1.0",
     "angular": "^1.7.9",
-    "angular-ui-router": "^1.0.24",
-    "concurrently": "^5.0.2",
+    "angular-ui-router": "^1.0.25",
+    "concurrently": "^5.1.0",
     "del": "^5.1.0",
     "eslint": "^6.8.0",
     "eslint-config-important-stuff": "^1.1.0",
@@ -34,6 +34,6 @@
     "gulp-concat": "^2.6.1"
   },
   "dependencies": {
-    "single-spa-angularjs": "^3.1.0"
+    "single-spa-angularjs": "^3.2.0"
   }
 }

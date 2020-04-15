@@ -68,10 +68,10 @@
   resolved "https://registry.yarnpkg.com/@types/systemjs/-/systemjs-6.1.0.tgz#eb92e3181391b6f49b8310077fe65bfa3db9392a"
   integrity sha512-akhlviqwowzRNiz3ooAbkjvyMO8cikBqap9z/0yfvMAb6vIsp91Rfox67qtgIhZosWP01MVSTwsgSFYWo4SWQA==
 
-"@uirouter/core@6.0.3":
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/@uirouter/core/-/core-6.0.3.tgz#1de7a3451039e1274e7f595de2be92421c26b09c"
-  integrity sha512-ftAQw9czKUSgLFC3LwOeJP97PDQ6naHcEK0NrbWw3X/r49oQJBMRFAsz9oEKqPFPD2vUDqkvG18BZXglLp8k+Q==
+"@uirouter/core@6.0.4":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@uirouter/core/-/core-6.0.4.tgz#fcdc75ab10f1035176acf87a27d9d27a0101ecf9"
+  integrity sha512-TQ9XOzZY+jmWKkU4993MAEBIy7Bs3kijDzj+A6RHR8gq/3UoQm3Q/l1igfao5GZyBjid7eRVeipPK14ovCYQ3g==
 
 acorn-jsx@^5.1.0:
   version "5.1.0"
@@ -101,12 +101,12 @@ ajv@^6.10.0, ajv@^6.10.2:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-angular-ui-router@^1.0.24:
-  version "1.0.24"
-  resolved "https://registry.yarnpkg.com/angular-ui-router/-/angular-ui-router-1.0.24.tgz#3e1f812f1096ddfc43e8b6cf4716a30962fc45d0"
-  integrity sha512-1bgarSWXSTvM/HFTCDn7HDRvdWo+zG1c0ceabcFR+VDAOgaUt0X11DscfMXA5fPSX+tprM606+wYSHcp86JbFg==
+angular-ui-router@^1.0.25:
+  version "1.0.25"
+  resolved "https://registry.yarnpkg.com/angular-ui-router/-/angular-ui-router-1.0.25.tgz#eef614dcf0fcca3a9a29b6e0591d90f93453846d"
+  integrity sha512-NCjwfGWQiqBx22OyAm6hsAWvlo431uUlY2ccg9kXkvb3zCLQGSJ6pGo1AGLtRAKdZvrEHiIExhawyrVPkYp0VA==
   dependencies:
-    "@uirouter/core" "6.0.3"
+    "@uirouter/core" "6.0.4"
 
 angular@^1.7.9:
   version "1.7.9"
@@ -582,10 +582,10 @@ concat-with-sourcemaps@^1.0.0:
   dependencies:
     source-map "^0.6.1"
 
-concurrently@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/concurrently/-/concurrently-5.0.2.tgz#4d2911018c0f15ddec34a8e668fc48dced7f3b1e"
-  integrity sha512-iUNVI6PzKO0RVXV9pHWM0khvEbELxf3XLIoChaV6hHyoIaJuxQWZiOwlNysnJX5khsfvIK66+OJqRdbYrdsR1g==
+concurrently@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/concurrently/-/concurrently-5.1.0.tgz#05523986ba7aaf4b58a49ddd658fab88fa783132"
+  integrity sha512-9ViZMu3OOCID3rBgU31mjBftro2chOop0G2u1olq1OuwRBVRw/GxHTg80TVJBUTJfoswMmEUeuOg1g1yu1X2dA==
   dependencies:
     chalk "^2.4.2"
     date-fns "^2.0.1"
@@ -2644,10 +2644,10 @@ signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
-single-spa-angularjs@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/single-spa-angularjs/-/single-spa-angularjs-3.1.0.tgz#93df3fe064cc16b3de40f94aee23648d2d2eba5e"
-  integrity sha512-tBI30El6T8o+DqDYxLpea2ZwFt700FuS9KQnYOHZ/2LGuOkTWjx57ilRSziGkua2lcw3DFLaAHl+OFJBqekp4w==
+single-spa-angularjs@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/single-spa-angularjs/-/single-spa-angularjs-3.2.0.tgz#e80a6726acef157233ff54497d04131406d20cf4"
+  integrity sha512-J6gVmso9WVD65OoU/RO4AwopZJC3fitvGiNmROvE/RZvSLJjqm00DSY38s+uTG9OG1hv1JhaTSwYOt3gsPt/XA==
 
 slash@^3.0.0:
   version "3.0.0"
