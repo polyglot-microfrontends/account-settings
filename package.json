@@ -23,7 +23,7 @@
   "homepage": "https://github.com/polyglot-microfrontends/account-settings#readme",
   "devDependencies": {
     "@types/systemjs": "^6.1.0",
-    "angular": "^1.7.9",
+    "angular": "^1.8.0",
     "angular-ui-router": "^1.0.25",
     "concurrently": "^5.1.0",
     "del": "^5.1.0",
